@@ -261,6 +261,7 @@ run_test
 
 FILE=../../bins/pe/ConsoleApplication1.exe
 CMDS='e anal.jmptbl=true
+s 0x401090
 af
 afb
 
